@@ -1,0 +1,10 @@
+body {
+    background: #3C8DBC;
+}
+
+h1 {
+    color: #fff;
+    text-indent: 20px;
+    letter-spacing: 5px;
+    text-shadow: 5px 5px 5px #000;
+}

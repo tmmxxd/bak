@@ -1,0 +1,26 @@
+body {
+    background: #222D32;
+    margin: 0px;
+}
+
+.menu-bar a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.menu-bar {
+    font-size: 22px;
+    border-bottom: 1px solid #fff;
+    height: 40px;
+    line-height: 40px;
+    text-indent: 18px;
+    letter-spacing: 5px;
+}
+
+.menu-bar:first-child {
+    border-top: 1px solid #fff;
+}
+
+.menu-bar:hover {
+    background: #797979;
+}
