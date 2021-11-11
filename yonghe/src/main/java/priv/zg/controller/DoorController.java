@@ -15,7 +15,7 @@ import priv.zg.service.OrderService;
 /**
  * 门店服务
  *
- * @author tsz
+ * @author zg
  * @date 2021/11/04
  */
 @Controller
@@ -37,8 +37,6 @@ public class DoorController {
         List<Door> list = doorService.findAll();
         //往model中添加一个属性(添加到request域中)
         model.addAttribute("list", list);
-        //转向test.jsp页面(同时会将存入Model中的
-        // list集合也带到test.jsp页面)
         return "door_list";
     }
 

@@ -10,7 +10,7 @@ import org.springframework.web.servlet.view.InternalResourceViewResolver;
 /**
  * 页面跳转 控制器(RESTful 风格)
  *
- * @author tsz
+ * @author zg
  * @date 2021/11/04
  */
 @Controller

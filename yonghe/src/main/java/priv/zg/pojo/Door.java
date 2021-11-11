@@ -9,7 +9,7 @@ import lombok.Data;
  * POJO(实体类)
  * 用于封装所有的门店信息
  *
- * @author tsz
+ * @author zg
  * @date 2021/11/04
  */
 @Data

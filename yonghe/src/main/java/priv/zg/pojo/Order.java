@@ -10,7 +10,7 @@ import java.util.Date;
 /**
  * 订单信息类, 用于封装订单信息
  *
- * @author tsz
+ * @author zg
  * @date 2021/11/04
  */
 @Data

@@ -17,7 +17,7 @@ import priv.zg.service.DoorService;
  * 将类上带有@Service注解的类, 自动注册到
  * spring容器中, 即由spring创建该类的实例
  *
- * @author tsz
+ * @author zg
  * @date 2021/11/04
  */
 @Service

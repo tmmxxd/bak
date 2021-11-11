@@ -8,7 +8,7 @@ import org.springframework.context.annotation.Configuration;
 import org.springframework.http.HttpStatus;
 
 /**
- * @author tsz
+ * @author zg
  * @date 2021-11-11 17:29
  */
 @Configuration

@@ -7,7 +7,7 @@ import priv.zg.pojo.Order;
 /**
  * 订单服务
  *
- * @author tsz
+ * @author zg
  * @date 2021/11/04
  */
 public interface OrderService {
