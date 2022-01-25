@@ -1,0 +1,21 @@
+#server
+server:
+  port: 80
+  servlet:
+    context-path: /
+#spring
+spring:
+  datasource:
+    driver-class-name: com.mysql.jdbc.Driver
+    url: jdbc:mysql://localhost/localhost_ufq?useUnicode=true&characterEncoding=utf8
+    username: root
+    password: root
+  mvc:
+    view:
+      prefix: /WEB-INF/views/
+      suffix: .jsp
+#mybatis-plush配置
+mybatis-plus:
+  type-aliases-package: priv.zg.ufq.entity
+  configuration:
+    map-underscore-to-camel-case: true
